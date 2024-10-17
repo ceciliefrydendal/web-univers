@@ -6,6 +6,17 @@
     text-decoration: none;
 }
 
+
+main .navbar ul{
+    list-style: none;
+}
+
+main .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+
 /* :root{
 --primary-color: #7b9e87;
 --secondary-color: #e3c5bb;
@@ -30,25 +41,55 @@ header img{
     left: 45.2%;
 }
 
-.menustreg{
-    width: 300px;
+.menu-streg{
     position: absolute;
-    left: 39%;
-    top: 20%;
-}
-
-nav ul{
-    position: absolute;
-    left: 40.5%;
-    top: 25%;
-    font-size: 20px;
-    color: #30343f;
+    width: 1000px;
+    left: 15%;
+    top: 28%;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 80px;
 }
+
+nav ul li a{
+    text-decoration: none;
+    color: #30343f;
+} 
+
+a:hover{
+    color: #7b9e87;
+    transition: 0.5s;
+}
+.artikler{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.kort-menu{
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.fun-fact{
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.om-os{
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    font-size: 20px;
+}
+
 
 .forside-tekst{
     position: absolute;
@@ -126,6 +167,25 @@ color: #30343f;
     position: absolute;
     top: 235%;
     left: 35%;
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 10px solid #e3c5bb;
+    border-radius: 10px;
+}
+
+.kommentar-knap{
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 100px;
+    color: #30343f;
+    background-color: #7b9e87;
+    border-radius: 5%;
+    border: 5px solid #7b9e87;
+    position: absolute;
+    top: 110%;
+    left: 40%;
 }
 
 footer{
@@ -139,7 +199,7 @@ footer{
 
 .footer-overskrift{
     position: absolute;
-    right: -80%;
+    right: -79%;
     top: 25%;
 }
 
@@ -152,6 +212,21 @@ footer{
 .footer-streg{
     position: absolute;
     width: 1000px;
-    left: 150%;
+    left: 130%;
     bottom: 100%;
 }
+
+.facebook-ikon{
+    width: 90px;
+    position: absolute;
+    left: 1135%;
+    top: 25%;
+}
+
+.instagram-ikon{
+    width: 90px;
+    position: absolute;
+    left: 1000%;
+    top: 25%;
+}
+

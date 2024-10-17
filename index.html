@@ -17,31 +17,32 @@
         <h1> <img src="img/logo.png" alt="logo"> <link rel="forside" href="index.html"> </h1>
     </header>
 
-    <img class="menustreg" src="img/menustreg.png" alt="menustreg"> 
+    <img class="menu-streg" src="img/menu-streg.png" alt="menustreg"> 
 
     <main>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar">Menu</label>
+        
         <nav class="navbar">
             <ul>
-                <li><a href="#">Artikler</a>
-                    <!-- <ul>
+                <li class="artikler"><a href="#">Artikler</a>
+                    <ul>
                         <li><a href="kirker.html">Kirker</a>
                         <li><a href="#">Bygninger</a>
                         <li><a href="#">Bar</a>
-                    </ul> -->
+                    </ul>
                 </li>
-                <li><a href="#">Kort</a>
-                    <!-- <ul>
+                <li class="kort-menu"><a href="#">Kort</a>
+                    <ul>
                         <li><a href="kort-aarhus-c.html">Aarhus C</a>
                         <li><a href="#">Aarhus V</a>
                         <li><a href="#">Aarhus N</a>
                         <li><a href="#">Aarhus S</a>
                         <li><a href="#">Aarhus Ø</a>
                     </ul>
-                </li> -->
-                <li><a href="fun-fact.html">Fun Fact</a></li>
-                <li><a href="#">Om Os</a></li>
+                </li>
+                <li class="fun-fact"><a href="fun-fact.html">Fun Fact</a></li>
+                <li class="om-os"><a href="#">Om Os</a></li>
             </ul>
         </nav>
     </main>
@@ -67,10 +68,10 @@
         <img class="kommentar" src="/img/kommentar.png" alt="kommentar overskrift">
        
        <section class="kommentarfelt-boks"> <form action="/submit-kommentar" method="POST">
-            <textarea id="kommentar" name="kommentar"
-                rows="10" cols="50" placeholder="Skriv din kommentar her">
-            </form>
+            <textarea id="kommentar" name="kommentar" placeholder="Skriv din kommentar her"
+                rows="11" cols="50">
             </textarea>
+            <button class="kommentar-knap">SEND</button>
    </section>
 
    <img class="kort-streg" src="img/menustreg.png" alt="menustreg"> 
