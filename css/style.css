@@ -13,7 +13,7 @@
     --text-color: #30343f;
     }
 
-
+/* responsive nav */
 header .logo {
     font-weight: bolder;
     font-size: 25px;
@@ -22,6 +22,9 @@ header .logo {
 
 header .navbar ul {
     list-style: none;
+    position: absolute;
+    top: 32%;
+    left: 22%;
 }
 
 header .navbar ul li {
@@ -35,7 +38,7 @@ header .navbar ul li a {
     font-size: 20px;
     padding: 18px;
     color: var(--text-color);
-    display: block;
+
 }
 
 header .navbar ul li a:hover {
@@ -45,14 +48,16 @@ header .navbar ul li a:hover {
 header .navbar ul li ul {
     position: absolute;
     left: 0;
-    width: 200px;
+    width: 150px;
     background: #e3c5bb;
     display: none;
+    border: 1px solid #e3c5bb;
+    border-radius: 10%;
+    margin-top: 20px;
 }
 
 header .navbar ul li ul li {
     width: 100%;
-    border-top: 1px solid #30343f;
 }
 
 header .navbar ul li ul li ul {
@@ -74,6 +79,11 @@ header label {
     color: #30343f;
     cursor: pointer;
     display: none;
+}
+
+a:hover{
+    color: #7b9e87;
+    transition: 0.5s;
 }
 
 @media(max-width:991px){
@@ -111,7 +121,7 @@ header label {
     #menu-bar:checked ~ .navbar {
         display: block;
     }
-
+/* responsive nav slut */
 
 body{
     background-color: #f6fcf2;
@@ -136,13 +146,6 @@ header img{
     left: 15%;
     top: 28%;
 }
-
-
-a:hover{
-    color: #7b9e87;
-    transition: 0.5s;
-}
-
 
 .artikler{
     position: absolute;
@@ -190,6 +193,7 @@ a:hover{
     width: 500px;
     position: absolute;
     bottom: 20%;
+    left: 5%;
 }
 
 .vidste-du-tekst{
@@ -270,6 +274,7 @@ a:hover{
     left: 40%;
 }
 
+/* footer */
 footer{
     position: absolute;
     top: 270%;
@@ -311,4 +316,4 @@ footer{
     left: 1000%;
     top: 25%;
 }
-
+/* footer slut */
