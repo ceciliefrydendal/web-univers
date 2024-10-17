@@ -5,37 +5,41 @@
         <meta name="description" content="For nye studernede i Aarhus. Læs om historien i Aarhus og lyt til den mens du går.">
         <meta name="keywords" content=" aarhus historie, aarhus bar, åen aarhus">
         <meta name="Århus historie" content="online magasin">
+        <link rel="stylesheet" href="https://use.typekit.net/dfg4rsy.css">
         <link rel="stylesheet" href="css/style.css">
         <title>Århus historie</title>
 
         
     </head>
 <body>
+
     <header>
         <h1> <img src="img/logo.png" alt="logo"> <link rel="forside" href="index.html"> </h1>
     </header>
-        <hr>
+
+    <img class="menustreg" src="img/menustreg.png" alt="menustreg"> 
+
     <main>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar">Menu</label>
         <nav class="navbar">
             <ul>
                 <li><a href="#">Artikler</a>
-                    <ul>
+                    <!-- <ul>
                         <li><a href="kirker.html">Kirker</a>
                         <li><a href="#">Bygninger</a>
                         <li><a href="#">Bar</a>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li><a href="#">Kort</a>
-                    <ul>
+                    <!-- <ul>
                         <li><a href="kort-aarhus-c.html">Aarhus C</a>
                         <li><a href="#">Aarhus V</a>
                         <li><a href="#">Aarhus N</a>
                         <li><a href="#">Aarhus S</a>
                         <li><a href="#">Aarhus Ø</a>
                     </ul>
-                </li>
+                </li> -->
                 <li><a href="fun-fact.html">Fun Fact</a></li>
                 <li><a href="#">Om Os</a></li>
             </ul>
@@ -43,33 +47,42 @@
     </main>
 
     <section>
-        <h2>Vidste Du</h2>
-        <p> Bodegaen nede ved Åboulevarden, har ligget der siden 1989. Det er et populært sted
+        <img class="vidste-du" src="/img/vidste-du.png" alt="vidste du tekst">
+        <p class="vidste-du-tekst"> Bodegaen nede ved Åboulevarden, har ligget der siden 1989. Det er et populært sted
             <br>for både lokale og nye studerende. Der er plads til snak, hygge og en masse spil,
             <br>de tilbyder den klassiske ”slå sømmet i” og dart. MEN hvis du er mere til Quiz
             <br>tilbyder de også det, som så mange andre Aarhusianske bar nede ved Åboulevarden. 
-            <br>Der er Quize på Den Gyldne kro hele ugen, så tag dine venner med og hav en hyggelig aften
+            <br>Der er Quize på Den Gyldne kro hele ugen, så tag dine venner med og hav en hyggelig aften.
         </p>
         <p>
-            <img src="img/Bodegaen.png" alt="billed af bodegaen"><link rel="bodegaen" href="//tipaarhus.dk/vaertshuse-aarhus/">
+            <img class="bodegaen" src="img/Bodegaen.png" alt="billed af bodegaen"><link rel="bodegaen" href="//tipaarhus.dk/vaertshuse-aarhus/">
         </p>
     </section>
 
-        <hr>
+    <img class="sektion-streg" src="img/menustreg.png" alt="menustreg"> 
 
-    <section>
-        <h2>Lær at komme rundt</h2> 
-    </section>    
-
-    <hr>
-
-    <section>
-        <h2>Noget du synes vi skal undersøge så skriv en kommentar:</h2>
-        <form action="/sumit-kommentar" method="post"></form>
+    <section class="kommentarfelt">
+ <img class="laer" src="/img/laer-at-komme-rundt.png" alt="lær at komme rundt overskrift">
+ <section class="kort"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2880.892826398308!2d10.20675561197323!3d56.15702550672786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sda!2sdk!4v1729176540280!5m2!1sda!2sdk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+        <img class="kommentar" src="/img/kommentar.png" alt="kommentar overskrift">
+       
+       <section class="kommentarfelt-boks"> <form action="/submit-kommentar" method="POST">
             <textarea id="kommentar" name="kommentar"
-                rows="4" cols="50" placeholder="Skriv din kommentar her">
+                rows="10" cols="50" placeholder="Skriv din kommentar her">
+            </form>
             </textarea>
    </section>
+
+   <img class="kort-streg" src="img/menustreg.png" alt="menustreg"> 
+
+   <footer>
+    <img class="footer-streg" src="/img/footer-streg.png" alt="footer streg">
+    <img class="footer-logo" src="img/logo.png" alt="logo"> <link rel="forside" href="index.html">
+    <h2 class="footer-overskrift">kontakt</h2>
+    <p class="footer-underskrift">aarhushistorie@gmail.com</p>
+    <img class="facebook-ikon" src="/img/facebook-ikon.png" alt="facebook ikon">
+    <img class="instagram-ikon" src="/img/instagram-ikon.png" alt="instagram ikon">
+   </footer>
 
 </body>
 </html>
