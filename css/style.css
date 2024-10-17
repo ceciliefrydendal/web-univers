@@ -6,23 +6,112 @@
     text-decoration: none;
 }
 
+:root{
+    --primary-color: #7b9e87;
+    --secondary-color: #e3c5bb;
+    --backgrund-color: #f6fcf2;
+    --text-color: #30343f;
+    }
 
-main .navbar ul{
+
+header .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+header .navbar ul {
     list-style: none;
 }
 
-main .navbar ul li{
+header .navbar ul li {
     position: relative;
     float: left;
 }
 
 
-/* :root{
---primary-color: #7b9e87;
---secondary-color: #e3c5bb;
---backgrund-color: #f6fcf2;
---text-color: #30343f;
-} */
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    color: var(--text-color);
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #e3c5bb;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid #30343f;
+}
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top:0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #30343f;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px){
+
+
+    header {
+        padding: 20px;
+    }
+    
+    header label {
+        display: block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left:0;
+        right:0;
+        background: #e3c5bb;
+        border-top: 1px solid rgba(0,0,0,0.1);
+        display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: block;
+    }
+
 
 body{
     background-color: #f6fcf2;
@@ -48,24 +137,17 @@ header img{
     top: 28%;
 }
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #30343f;
-} 
 
 a:hover{
     color: #7b9e87;
     transition: 0.5s;
 }
+
+
 .artikler{
     position: absolute;
     left: 25%;
-    top: 30%;
+    top: 100%;
     font-size: 20px;
 }
 
@@ -105,7 +187,7 @@ a:hover{
 }
 
 .vidste-du{
-    width: 400px;
+    width: 500px;
     position: absolute;
     bottom: 20%;
 }
@@ -114,9 +196,9 @@ a:hover{
     position: absolute;
     bottom: 2%;
     font-family: "circe", sans-serif;
-font-weight: 400;
-font-style: normal;
-color: #30343f;
+    font-weight: 400;
+    font-style: normal;
+    color: #30343f;
 }
 
 .bodegaen{
