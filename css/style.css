@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--primary-color: #7b9e87;
+--secondary-color: #e3c5bb;
+--backgrund-color: #f6fcf2;
+--text-color: #30343f;
+}
+
+body{
+    font-family: circe;
+    text-transform: uppercase;
+    text-decoration: none;
+    min-height: 100vh;
+    background-color:var(--backgrund-color);
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+
+}
