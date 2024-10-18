@@ -24,7 +24,8 @@ header .navbar ul {
     list-style: none;
     position: absolute;
     top: 32%;
-    left: 22%;
+    left: 30%;
+    z-index: 1;
 }
 
 header .navbar ul li {
@@ -36,7 +37,7 @@ header .navbar ul li {
 header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
-    padding: 18px;
+    padding: 37px;
     color: var(--text-color);
 
 }
@@ -53,7 +54,7 @@ header .navbar ul li ul {
     display: none;
     border: 1px solid #e3c5bb;
     border-radius: 10%;
-    margin-top: 20px;
+    margin-top: 20%;
 }
 
 header .navbar ul li ul li {
@@ -123,6 +124,7 @@ a:hover{
     }
 /* responsive nav slut */
 
+
 body{
     background-color: #f6fcf2;
     font-family: "circe", sans-serif;
@@ -134,10 +136,101 @@ body{
 
 }
 
+.fun-fact-overskrift{
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
+
+.fun-fact-sektion{
+    position: absolute;
+    top: 110%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aaen-overskrift{
+    width: 300px;
+    position: absolute;
+    top: 78%;
+    left: 3%;
+}
 header img{
     width: 100px;
     position: absolute;
     left: 45.2%;
+}
+
+.aaen-billed{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.aaen-knap{
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    font-size: 23px;
+    color: #30343f;
+    background-color: #7b9e87;
+    border-radius: 5%;
+    border: 5px solid #7b9e87;
+    position: absolute;
+    top: 140%;
+    left: 14%;
+}
+
+.sektion-streg{
+    width: 300px;
+    position: absolute;
+    top: 250%;
+    left: 86%;
+}
+
+.vor-frue-kirke-sektion{
+    position: absolute;
+    top: 210%;
+    left: 60%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.vor-frue-kirke-overskrift{
+    width: 400px;
+    position: absolute;
+    top: 190%;
+    left: 66%;
+}
+
+.vor-frue-kirke{
+    position: absolute;
+    top: 180%;
+}
+
+.vor-frue-knap-to{
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    font-size: 23px;
+    color: #30343f;
+    background-color: #7b9e87;
+    border-radius: 5%;
+    border: 5px solid #7b9e87;
+    position: absolute;
+    top: 140%;
+    left: 28%;
+}
+
+.vor-frue-knap-to:hover{
+    color: #e3c5bb;
+    transition: 0.5s;
 }
 
 .menu-streg{
@@ -147,12 +240,56 @@ header img{
     top: 28%;
 }
 
+.gedulgt-overskrift{
+    width: 400px;
+    position: absolute;
+    top: 270%;
+    left: 3%;
+}
+
+.gedulgt-sektion{
+    position: absolute;
+    top: 297%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.gedulgt{
+    width: 500px;
+    position: absolute;
+    top: 285%;
+    left: 60%;
+}
+
+.gedulgt-knap{
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    font-size: 23px;
+    color: #30343f;
+    background-color: #7b9e87;
+    border-radius: 5%;
+    border: 5px solid #7b9e87;
+    position: absolute;
+    top: 320%;
+    left: 14%;
+}
+
+.gedulgt-streg{
+    width: 300px;
+    position: absolute;
+    top: 250%;
+    left: 39%;
+}
 
 
 /* footer */
 footer{
     position: absolute;
-    top: 270%;
+    top: 350%;
 }
 
 .footer-logo{

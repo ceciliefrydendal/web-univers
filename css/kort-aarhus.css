@@ -24,7 +24,8 @@ header .navbar ul {
     list-style: none;
     position: absolute;
     top: 32%;
-    left: 22%;
+    left: 30%;
+    z-index: 1;
 }
 
 header .navbar ul li {
@@ -36,7 +37,7 @@ header .navbar ul li {
 header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
-    padding: 18px;
+    padding: 37px;
     color: var(--text-color);
 
 }
@@ -123,6 +124,7 @@ a:hover{
     }
 /* responsive nav slut */
 
+
 body{
     background-color: #f6fcf2;
     font-family: "circe", sans-serif;
@@ -147,11 +149,165 @@ header img{
     top: 28%;
 }
 
+.aarhus-c-overskrift{
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
+
+.fem-km-overskrift{
+    width: 150px;
+    position: absolute;
+    top: 75%;
+}
+
+.rute-punkter-fem{
+    position: absolute;
+    font-size: 32px;
+    top: 98%;
+    left: 14%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.syv-km-overskrift{
+    width: 150px;
+    position: absolute;
+    top: 190%;
+    left: 6%;
+}
+
+.rute-tal-syv{
+        width: 60px;
+        position: absolute;
+        top: 210%;
+        right: 88%;
+    }
+.rute-kort-syv{
+    width: 620px;
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    border: 10px solid #7b9e87;
+    border-radius: 10px;
+}
+
+.rute-punkter-syv{
+    position: absolute;
+    font-size: 32px;
+    top: 212%;
+    left: 15%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lyd-ikoner-kort-syv{
+    width: 120px;
+    position: absolute;
+    top: 209%;
+    left: 38%;
+}
+
+.rute-tal{
+    width: 100px;
+    position: absolute;
+    top: 95%;
+}
+
+.rute-kort{
+    width: 620px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    border: 10px solid #7b9e87;
+    border-radius: 10px;
+}
+
+.ti-km-overskrift{
+    width: 180px;
+    position: absolute;
+    top: 320%;
+    left: 6%;
+}
+
+.rute-kort-ti{
+    width: 620px;
+    position: absolute;
+    top: 340%;
+    left: 50%;
+    border: 10px solid #7b9e87;
+    border-radius: 10px;
+}
+
+.rute-tal-ti-en{
+    width: 70px;
+    position: absolute;
+    top: 335%;
+    right: 88%;
+}
+
+.rute-tal-ti-to{
+    width: 80px;
+    position: absolute;
+    top: 422%;
+    right: 88%;
+}
+
+.rute-punkter-ti{
+    position: absolute;
+    font-size: 32px;
+    top: 336%;
+    left: 15%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.lyd-ikoner-kort-ti{
+    width: 90px;
+    position: absolute;
+    top: 336%;
+    left: 40%;
+}
+
+.lyd-ikoner-kort-ti-to{
+    width: 90px;
+    position: absolute;
+    top: 420%;
+    left: 39.5%;
+}
+
+
+
+.lyd-ikoner-kort{
+    width: 90px;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+}
+
+.sektion-streg-kort{
+    width: 300px;
+    position: absolute;
+    top: 450%;
+    left: 38%;
+}
+
+.kort-slut-overskrift{
+    width: 350px;
+    position: absolute;
+    top: 460%;
+    left: 37%;
+}
 
 /* footer */
 footer{
     position: absolute;
-    top: 270%;
+    top: 500%;
 }
 
 .footer-logo{

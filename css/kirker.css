@@ -24,7 +24,8 @@ header .navbar ul {
     list-style: none;
     position: absolute;
     top: 32%;
-    left: 22%;
+    left: 30%;
+    z-index: 1;
 }
 
 header .navbar ul li {
@@ -36,7 +37,7 @@ header .navbar ul li {
 header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
-    padding: 18px;
+    padding: 37px;
     color: var(--text-color);
 
 }
@@ -123,6 +124,7 @@ a:hover{
     }
 /* responsive nav slut */
 
+
 body{
     background-color: #f6fcf2;
     font-family: "circe", sans-serif;
@@ -132,6 +134,102 @@ body{
     min-height: 100vh;
     padding: 80px;
 
+}
+
+.kirker-overskrift{
+    width: 350px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
+
+.kirker-underskrift-en{
+    width: 300px;
+    position: absolute;
+    top: 78%;
+    left: 3%;
+}
+.kirker-sektion{
+position: absolute;
+    top: 99%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.domkirken{
+    position: absolute;
+    width: 400px;
+    top: 80%;
+    left: 60%;
+}
+
+.domkirke-knap{
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    font-size: 23px;
+    color: #30343f;
+    background-color: #7b9e87;
+    border-radius: 5%;
+    border: 5px solid #7b9e87;
+    position: absolute;
+    top: 130%;
+    left: 16%;
+}
+
+.kirker-sektion-streg{
+    width: 300px;
+    position: absolute;
+    top: 160%;
+    left: 38%;
+}
+
+.vor-frue-kirke-sektion-to{
+    position: absolute;
+    top: 210%;
+    left: 60%;
+    font-family: "circe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.vor-frue-kirke-overskrift-to{
+    width: 400px;
+    position: absolute;
+    top: 190%;
+    left: 66%;
+}
+
+.vor-frue-kirke-to{
+    position: absolute;
+    top: 184%;
+}
+
+
+.vor-sektion-streg{
+    width: 300px;
+position: absolute;
+top: 255%;
+left: 38%;
+}
+
+.vor-frue-knap{
+    font-family: "circe", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 200px;
+    font-size: 23px;
+    color: #30343f;
+    background-color: #7b9e87;
+    border-radius: 5%;
+    border: 5px solid #7b9e87;
+    position: absolute;
+    top: 247%;
+    left: 73%;
 }
 
 header img{
@@ -147,12 +245,49 @@ header img{
     top: 28%;
 }
 
+.sankt-lukas-underskrift{
+    width: 450px;
+    position: absolute;
+    top: 270%;
+    left: 3%;
+}
+
+.sankt-lukas-sektion{
+    position: absolute;
+        top: 290%;
+        font-family: "circe", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+    }
+
+    .sankt-lukas{
+        position: absolute;
+        width: 500px;
+        top: 270%;
+        left: 60%;
+    }
+
+    .sankt-lukas-knap{
+        font-family: "circe", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        width: 200px;
+        font-size: 23px;
+        color: #30343f;
+        background-color: #7b9e87;
+        border-radius: 5%;
+        border: 5px solid #7b9e87;
+        position: absolute;
+        top: 310%;
+        left: 14%;
+    }
 
 
 /* footer */
 footer{
     position: absolute;
-    top: 270%;
+    top: 370%;
 }
 
 .footer-logo{

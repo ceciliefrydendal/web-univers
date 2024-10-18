@@ -24,7 +24,7 @@ header .navbar ul {
     list-style: none;
     position: absolute;
     top: 32%;
-    left: 22%;
+    left: 25.8%;
 }
 
 header .navbar ul li {
@@ -36,7 +36,7 @@ header .navbar ul li {
 header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
-    padding: 18px;
+    padding: 12px;
     color: var(--text-color);
 
 }
@@ -53,7 +53,7 @@ header .navbar ul li ul {
     display: none;
     border: 1px solid #e3c5bb;
     border-radius: 10%;
-    margin-top: 20px;
+    margin-top: 20%;
 }
 
 header .navbar ul li ul li {
