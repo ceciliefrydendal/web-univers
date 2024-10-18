@@ -217,12 +217,8 @@ header img{
     font-family: "circe", sans-serif;
     font-weight: 700;
     font-style: normal;
-    width: 200px;
+    width: 220px;
     font-size: 23px;
-    color: #30343f;
-    background-color: #7b9e87;
-    border-radius: 5%;
-    border: 5px solid #7b9e87;
     position: absolute;
     top: 140%;
     left: 28%;
